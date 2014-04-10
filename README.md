@@ -59,7 +59,7 @@ client.push_note_to('a@b.c', 'title', 'full message')
 ```
 ## Contributing
 
-1. Fork it ( http://github.com/vajapravin/mvaayoo/fork )
+1. Fork it ( http://github.com/vajapravin/pushbullet/fork )
 2. Create your feature branch (`git checkout -b my-pushbullet`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-pushbullet`)
