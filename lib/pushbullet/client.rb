@@ -1,8 +1,8 @@
 require 'faraday'
 require 'mime/types'
-require 'pushbullet/request'
-require 'pushbullet/api'
-require 'pushbullet/secret_api'
+require 'pushbullet/request.rb'
+require 'pushbullet/api.rb'
+require 'pushbullet/secret_api.rb'
 
 module Pushbullet
   class Client

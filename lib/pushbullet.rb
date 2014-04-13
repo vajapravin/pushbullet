@@ -1,4 +1,4 @@
-require 'pushbullet/client'
+require 'pushbullet/client.rb'
 
 module Pushbullet
 end

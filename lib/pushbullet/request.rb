@@ -1,4 +1,4 @@
-require 'pushbullet/connection'
+require 'pushbullet/connection.rb'
 
 module Pushbullet
   module Request

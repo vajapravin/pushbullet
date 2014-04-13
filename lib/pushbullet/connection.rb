@@ -1,5 +1,5 @@
-require 'pushbullet/http_exception'
-require 'pushbullet/parse_json'
+require 'pushbullet/http_exception.rb'
+require 'pushbullet/parse_json.rb'
 
 module Pushbullet
   module Connection

@@ -15,6 +15,10 @@ Or install it yourself as:
 
     $ gem install pushbullet
 
+pushbullet gem is build on faraday gem. It is mandatory to install
+	
+	gem 'faraday' 
+
 #### Setup Client
 
 copy following content and paste into config/initializers/pushbullet.rb
