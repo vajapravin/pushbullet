@@ -1,7 +1,7 @@
 module Pushbullet
   module API
     def devices
-      get('/api/devices')
+      get('/v2/devices')
     end
 
     def push_note(device_id, title, body)
@@ -30,7 +30,7 @@ module Pushbullet
     private
 
     def push(type, device_id, payload)
-      post '/api/pushes', payload.merge(device_id: device_id, type: type)
+      post '/v2/pushes', payload.merge(device_id: device_id, type: type)
     end
   end
 end
