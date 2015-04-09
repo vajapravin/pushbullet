@@ -24,7 +24,7 @@ module Pushbullet
     private
 
     def push_to(type, target_email, payload)
-      post '/v2/pushes', payload.merge(target_email: target_email, type: type)
+      post '/api/pushes', payload.merge(target_email: target_email, type: type)
     end
   end
 end
